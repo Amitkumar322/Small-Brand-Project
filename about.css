@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* navabar */
+section {
+    text-align: center;
+    background-color: #282c34;
+    padding: 20px;
+}
+
+.fm {
+    color: #ff7272;
+    text-shadow: 3px 3px 5px white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-family: "Playpen Sans", cursive;
+}
+.brand{
+    animation: dim-light 3s infinite; 
+    color:#ff7272;
+}
+@keyframes dim-light {
+    0%{
+        opacity: 1;
+        text-shadow: 0px 0 9px  rgb(250, 138, 138);
+       
+    }
+   50%{
+        opacity: 0.5;
+        text-shadow: 0px 0 9px rgb(250, 138, 138);
+      
+    }
+    100%{
+        opacity: 1;
+        text-shadow: 0px 0 9px  rgb(250, 138, 138);
+     
+    }
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color:  #ff7272;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .fm {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+/* navbar */
+
+/* section2 */
+.main img{
+    width: 400px;
+    height: 40vh;
+    cursor:pointer;
+    transition: 0.5s all;
+
+}
+.main img:hover{
+transform: scale(1.2);
+}
+/* section2 */
+/* section3 */
+.container{
+    margin-top:5%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap:15%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img1{
+    width:500px;
+    height: 50vh;
+    max-width:100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #000000;
+    height: auto;
+    display: block;
+}
+.para1{
+    /* display: flex; */
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* section3 */
+
+/* section4 */
+
+.paragraph{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1,.h2, .h3, .h4, .h5, .h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  font-weight: bolder;
+  color:#ff7272;
+  margin-top: 5%;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.p1, .p2, .p3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.p4, .p5, .p6{
+    margin-top:5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 2px; 
+}
+@media screen and (max-width:1225px) {
+    .paragraph{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* footer */
+footer{
+   background-color: black; 
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    color: white; 
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer div {
+    flex: 1; 
+    min-width: 250px; 
+    margin: 10px; 
+}
+
+.footer h6 {
+    border-bottom: 2px solid white; 
+    padding-bottom: 10px; 
+}
+
+.footer ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.footer ul li {
+    margin: 10px 0; 
+}
+
+.footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    color:hsl(73, 100%, 67%);
+    text-decoration: underline; 
+}
+
+.footer form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.footer label {
+    margin: 5px 0; 
+}
+
+.footer input[type="text"],
+.footer input[type="Email-Id"],
+.footer input[type="number"],
+.footer input[type="Address"],
+.footer input[type="submit"] {
+    padding: 10px; 
+    width:auto;
+    border: none; 
+    border-radius: 10px; 
+}
+.footer input:hover { 
+    box-shadow: 5px 5px 5px rgb(106, 255, 240);
+}
+
+.footer input[type="submit"] {
+    background-color:rgb(114, 229, 255) ; 
+    color: black; 
+    cursor: pointer; 
+}
+
+.footer input[type="submit"]:hover {
+    background-color:rgb(114, 229, 255) ; 
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+/* footer */
