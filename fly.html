@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flying Machine — India's first homegrown denim brand. Trendsetting styles for all."
+    />
+    <title>Flying Machine — India's First Denim Brand</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Archivo:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fly.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader-word">FLYING MACHINE</div>
+      <div class="loader-track"><div class="loader-fill"></div></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+      <a href="fly.html" class="logo">FLY<span>ING</span> MACHINE</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav">
+        <ul>
+          <li><a href="fly.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="moreinfo.html">More Info</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg-text">DENIM</div>
+      <div class="hero-lines"></div>
+      <div class="hero-content">
+        <div class="hero-badge">Est. 1980 · India's First Denim Brand</div>
+        <img
+          src="pictures/flylogo2.png"
+          alt="Flying Machine Logo"
+          class="hero-img"
+        />
+        <h1 class="hero-headline">Wear the <span>Revolution</span></h1>
+        <p class="hero-sub">
+          Flying Machine is India's first homegrown denim brand, born to push
+          boundaries and redefine self-expression through fearless,
+          trend-setting style.
+        </p>
+        <div class="hero-actions">
+          <a href="#collections" class="btn-primary">Explore Collections ↗</a>
+          <a href="about.html" class="btn-outline">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker">
+      <div class="ticker-track" id="ticker">
+        <span class="ticker-item">NEW ARRIVALS</span>
+        <span class="ticker-item ticker-dot">✦</span>
+        <span class="ticker-item">MID SEASON SALE</span>
+        <span class="ticker-item ticker-dot">✦</span>
+        <span class="ticker-item">FREE SHIPPING ABOVE ₹999</span>
+        <span class="ticker-item ticker-dot">✦</span>
+        <span class="ticker-item">KIDS · MEN · WOMEN</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">ACCESSORIES</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">NEW ARRIVALS</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">MID SEASON SALE</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">FREE SHIPPING ABOVE ₹999</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">KIDS · MEN · WOMEN</span>
+        <span class="ticker-item ticker-dot">+</span>
+        <span class="ticker-item">ACCESSORIES</span>
+        <span class="ticker-item ticker-dot">+</span>
+      </div>
+    </div>
+
+    <!-- Mid-Season Sale -->
+    <section class="sale-section" id="sale">
+      <div class="sale-header reveal">
+        <div>
+          <span class="section-label">Limited Time</span>
+          <h2 class="section-title">Mid Season <span>Sale</span></h2>
+        </div>
+        <div class="countdown" id="countdown">
+          <div class="cd-block">
+            <span class="cd-num" id="cd-h">12</span
+            ><span class="cd-label">Hours</span>
+          </div>
+          <div class="cd-block">
+            <span class="cd-num" id="cd-m">45</span
+            ><span class="cd-label">Mins</span>
+          </div>
+          <div class="cd-block">
+            <span class="cd-num" id="cd-s">00</span
+            ><span class="cd-label">Secs</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sale-cards">
+        <div class="sale-card featured reveal">
+          <img
+            src="pictures/saleseasion.jpg"
+            alt="Sale Banner 1"
+            loading="lazy"
+          />
+          <div class="sale-card-overlay">
+            <span class="sale-card-label">Best Seller</span>
+            <div class="sale-card-title">SUMMER DENIM<br />ESSENTIALS</div>
+            <span class="sale-badge">UP TO 50% OFF</span>
+          </div>
+        </div>
+        <div class="sale-card reveal reveal-delay-1">
+          <img
+            src="pictures/saleseasion2.avif"
+            alt="Sale Banner 2"
+            loading="lazy"
+          />
+          <div class="sale-card-overlay">
+            <span class="sale-card-label">New In</span>
+            <div class="sale-card-title">STREET READY</div>
+            <span class="sale-badge">30% OFF</span>
+          </div>
+        </div>
+        <div class="sale-card reveal reveal-delay-2">
+          <img
+            src="pictures/saleseasion3.jpg"
+            alt="Sale Banner 3"
+            loading="lazy"
+          />
+          <div class="sale-card-overlay">
+            <span class="sale-card-label">Trending</span>
+            <div class="sale-card-title">MODERN FITS</div>
+            <span class="sale-badge">40% OFF</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 48px" class="reveal">
+        <a href="#shop-now" class="btn-primary">Shop the Sale ↗</a>
+      </div>
+    </section>
+
+    <!-- Collections -->
+    <section class="collections" id="collections">
+      <div class="collections-header reveal">
+        <span class="section-label">Curated for You</span>
+        <h2 class="section-title">Trending <span>Collections</span></h2>
+        <div class="category-tabs">
+          <button class="cat-tab active" data-cat="all">All</button>
+          <button class="cat-tab" data-cat="kids">Kids</button>
+          <button class="cat-tab" data-cat="men">Men</button>
+          <button class="cat-tab" data-cat="women">Women</button>
+          <button class="cat-tab" data-cat="accessories">Accessories</button>
+        </div>
+      </div>
+
+      <!-- Kids -->
+      <div class="collection-section" data-collection="kids">
+        <div class="collection-section-header reveal">
+          <span class="collection-section-title">Kids' Collection</span>
+          <a
+            href="#"
+            class="btn-outline"
+            style="padding: 8px 20px; font-size: 0.7rem"
+            >View All →</a
+          >
+        </div>
+        <div class="collection-grid">
+          <div class="product-card" data-cat="kids">
+            <div class="product-card-img">
+              <img
+                src="pictures/kidfly1.jpg"
+                alt="Kid's Style 1"
+                loading="lazy"
+              />
+              <span class="product-card-tag">New</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Junior Slim Jeans</div>
+              <div class="product-card-price">
+                ₹1,299 <s>₹1,799</s>
+                <span class="product-card-discount">28% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="kids">
+            <div class="product-card-img">
+              <img
+                src="pictures/kidfly2.jpg"
+                alt="Kid's Style 2"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Cool Kids Tee</div>
+              <div class="product-card-price">
+                ₹699 <s>₹999</s>
+                <span class="product-card-discount">30% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="kids">
+            <div class="product-card-img">
+              <img
+                src="pictures/kidfly3.jpg"
+                alt="Kid's Style 3"
+                loading="lazy"
+              />
+              <span class="product-card-tag">Sale</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Playful Cargo Pants</div>
+              <div class="product-card-price">
+                ₹1,099 <s>₹1,499</s>
+                <span class="product-card-discount">27% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="kids">
+            <div class="product-card-img">
+              <img
+                src="pictures/kidfly4.jpg"
+                alt="Kid's Style 4"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Kids Hoodie Set</div>
+              <div class="product-card-price">
+                ₹1,499 <s>₹1,999</s>
+                <span class="product-card-discount">25% off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Men -->
+      <div class="collection-section" data-collection="men">
+        <div class="collection-section-header reveal">
+          <span class="collection-section-title">Men's Collection</span>
+          <a
+            href="#"
+            class="btn-outline"
+            style="padding: 8px 20px; font-size: 0.7rem"
+            >View All →</a
+          >
+        </div>
+        <div class="collection-grid">
+          <div class="product-card" data-cat="men">
+            <div class="product-card-img">
+              <img
+                src="pictures/flytsh1.jpg"
+                alt="Men's T-shirt 1"
+                loading="lazy"
+              />
+              <span class="product-card-tag">Trending</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Graphic Drop Tee</div>
+              <div class="product-card-price">
+                ₹799 <s>₹1,199</s>
+                <span class="product-card-discount">33% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="men">
+            <div class="product-card-img">
+              <img
+                src="pictures/flytsh3.jpg"
+                alt="Men's T-shirt 3"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Slim Fit Polo</div>
+              <div class="product-card-price">
+                ₹999 <s>₹1,399</s>
+                <span class="product-card-discount">29% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="men">
+            <div class="product-card-img">
+              <img
+                src="pictures/flyje3.jpg"
+                alt="Men's Jeans 3"
+                loading="lazy"
+              />
+              <span class="product-card-tag">Best Seller</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Straight Fit Denim</div>
+              <div class="product-card-price">
+                ₹2,499 <s>₹3,299</s>
+                <span class="product-card-discount">24% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="men">
+            <div class="product-card-img">
+              <img
+                src="pictures/flytsh4.jpg"
+                alt="Men's T-shirt 4"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Oversized Street Tee</div>
+              <div class="product-card-price">
+                ₹899 <s>₹1,299</s>
+                <span class="product-card-discount">31% off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Women -->
+      <div class="collection-section" data-collection="women">
+        <div class="collection-section-header reveal">
+          <span class="collection-section-title">Women's Collection</span>
+          <a
+            href="#"
+            class="btn-outline"
+            style="padding: 8px 20px; font-size: 0.7rem"
+            >View All →</a
+          >
+        </div>
+        <div class="collection-grid">
+          <div class="product-card" data-cat="women">
+            <div class="product-card-img">
+              <img
+                src="pictures/flywtsh1.jpg"
+                alt="Women's T-shirt 1"
+                loading="lazy"
+              />
+              <span class="product-card-tag">New</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Crop Denim Jacket</div>
+              <div class="product-card-price">
+                ₹2,199 <s>₹2,999</s>
+                <span class="product-card-discount">27% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="women">
+            <div class="product-card-img">
+              <img
+                src="pictures/flytsh2.jpg"
+                alt="Women's T-shirt 2"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Floral Printed Tee</div>
+              <div class="product-card-price">
+                ₹699 <s>₹999</s>
+                <span class="product-card-discount">30% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="women">
+            <div class="product-card-img">
+              <img
+                src="pictures/flytsh3.jpg"
+                alt="Women's T-shirt 3"
+                loading="lazy"
+              />
+              <span class="product-card-tag">Sale</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Slim Jogger Pants</div>
+              <div class="product-card-price">
+                ₹1,399 <s>₹1,799</s>
+                <span class="product-card-discount">22% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="women">
+            <div class="product-card-img">
+              <img
+                src="pictures/flywtsh4.jpg"
+                alt="Women's T-shirt 4"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Casual Linen Shirt</div>
+              <div class="product-card-price">
+                ₹1,099 <s>₹1,499</s>
+                <span class="product-card-discount">27% off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accessories -->
+      <div class="collection-section" data-collection="accessories">
+        <div class="collection-section-header reveal">
+          <span class="collection-section-title">Accessories</span>
+          <a
+            href="#"
+            class="btn-outline"
+            style="padding: 8px 20px; font-size: 0.7rem"
+            >View All →</a
+          >
+        </div>
+        <div class="collection-grid">
+          <div class="product-card" data-cat="accessories">
+            <div class="product-card-img">
+              <img
+                src="pictures/flyacc1.jpg"
+                alt="Accessory 1"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Signature Belt</div>
+              <div class="product-card-price">
+                ₹549 <s>₹799</s>
+                <span class="product-card-discount">31% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="accessories">
+            <div class="product-card-img">
+              <img
+                src="pictures/flyacc2.jpg"
+                alt="Accessory 2"
+                loading="lazy"
+              />
+              <span class="product-card-tag">Hot</span>
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Street Cap</div>
+              <div class="product-card-price">
+                ₹499 <s>₹699</s>
+                <span class="product-card-discount">29% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="accessories">
+            <div class="product-card-img">
+              <img
+                src="pictures/flyacc3.jpg"
+                alt="Accessory 3"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Denim Tote Bag</div>
+              <div class="product-card-price">
+                ₹899 <s>₹1,199</s>
+                <span class="product-card-discount">25% off</span>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-cat="accessories">
+            <div class="product-card-img">
+              <img
+                src="pictures/flyacc4.jpg"
+                alt="Accessory 4"
+                loading="lazy"
+              />
+              <button class="wishlist-btn">♡</button>
+            </div>
+            <div class="product-card-info">
+              <div class="product-card-name">Aviator Sunglasses</div>
+              <div class="product-card-price">
+                ₹999 <s>₹1,499</s>
+                <span class="product-card-discount">33% off</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Strip -->
+    <div class="features">
+      <div class="feature-item reveal">
+        <div class="feature-icon">🚚</div>
+        <div class="feature-title">Free Shipping</div>
+        <div class="feature-desc">On all orders above ₹999 across India</div>
+      </div>
+      <div class="feature-item reveal reveal-delay-1">
+        <div class="feature-icon">↩</div>
+        <div class="feature-title">Easy Returns</div>
+        <div class="feature-desc">30-day hassle-free return policy</div>
+      </div>
+      <div class="feature-item reveal reveal-delay-2">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-title">Secure Payment</div>
+        <div class="feature-desc">100% encrypted checkout experience</div>
+      </div>
+      <div class="feature-item reveal reveal-delay-3">
+        <div class="feature-icon">✦</div>
+        <div class="feature-title">Premium Quality</div>
+        <div class="feature-desc">Crafted with the finest denim fabrics</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-top">
+        <!-- Brand -->
+        <div>
+          <span class="footer-brand-logo">FLY<span>ING</span> MACHINE</span>
+          <p class="footer-tagline">
+            India's first homegrown denim brand. We've been defining style since
+            1980 — one pair of jeans at a time.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <!-- Useful Links -->
+        <div>
+          <h6 class="footer-col-title">Sister Brands</h6>
+          <ul class="footer-links">
+            <li><a href="#">→ U.S. Polo Assn.</a></li>
+            <li><a href="#">→ Calvin Klein</a></li>
+            <li><a href="#">→ Arrow Sports</a></li>
+            <li><a href="#">→ Arrow Formal</a></li>
+            <li><a href="#">→ Flying Machine</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h6 class="footer-col-title">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="fly.html">→ Home</a></li>
+            <li><a href="about.html">→ About Us</a></li>
+            <li><a href="service.html">→ Services</a></li>
+            <li><a href="contact.html">→ Contact</a></li>
+            <li><a href="moreinfo.html">→ More Info</a></li>
+          </ul>
+        </div>
+
+        <!-- Sign Up -->
+        <div>
+          <h6 class="footer-col-title">Stay Updated</h6>
+          <form class="footer-form" onsubmit="return false;">
+            <input type="text" placeholder="Your name" />
+            <input type="email" placeholder="Email address" />
+            <input type="tel" placeholder="Phone number" />
+            <button type="submit" class="btn-primary">Subscribe ↗</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          © 2025 Flying Machine · Arvind Mills Garments Division. All rights
+          reserved.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Cookie Settings</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll-to-top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <script>
+      // Loader
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("loader").classList.add("hidden");
+        }, 2000);
+      });
+
+      // Header scroll
+      const header = document.getElementById("header");
+      window.addEventListener("scroll", () => {
+        header.classList.toggle("scrolled", window.scrollY > 50);
+      });
+
+      // Mobile menu
+      const menuToggle = document.getElementById("menuToggle");
+      const nav = document.getElementById("nav");
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("open");
+        nav.classList.toggle("open");
+      });
+      nav.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => {
+          menuToggle.classList.remove("open");
+          nav.classList.remove("open");
+        }),
+      );
+
+      // Scroll-to-top
+      const scrollTopBtn = document.getElementById("scrollTop");
+      window.addEventListener("scroll", () => {
+        scrollTopBtn.classList.toggle("visible", window.scrollY > 400);
+      });
+      scrollTopBtn.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: "smooth" }),
+      );
+
+      // Scroll reveal
+      const revealEls = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("in");
+            }
+          });
+        },
+        { threshold: 0.12 },
+      );
+      revealEls.forEach((el) => revealObserver.observe(el));
+
+      // Product card reveal
+      const productCards = document.querySelectorAll(".product-card");
+      const cardObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e, i) => {
+            if (e.isIntersecting) {
+              setTimeout(() => e.target.classList.add("visible"), i * 80);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      productCards.forEach((c) => cardObserver.observe(c));
+
+      // Category tabs
+      const tabs = document.querySelectorAll(".cat-tab");
+      const sections = document.querySelectorAll(".collection-section");
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+          const cat = tab.dataset.cat;
+          sections.forEach((sec) => {
+            const col = sec.dataset.collection;
+            sec.style.display = cat === "all" || cat === col ? "block" : "none";
+          });
+        });
+      });
+
+      // Wishlist toggle
+      document.querySelectorAll(".wishlist-btn").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          this.textContent = this.textContent === "♡" ? "♥" : "♡";
+          this.style.color = this.textContent === "♥" ? "var(--red)" : "";
+        });
+      });
+
+      // Countdown timer
+      let endTime = Date.now() + 12 * 3600000 + 45 * 60000;
+      function updateCountdown() {
+        const rem = Math.max(0, endTime - Date.now());
+        const h = Math.floor(rem / 3600000);
+        const m = Math.floor((rem % 3600000) / 60000);
+        const s = Math.floor((rem % 60000) / 1000);
+        document.getElementById("cd-h").textContent = String(h).padStart(
+          2,
+          "0",
+        );
+        document.getElementById("cd-m").textContent = String(m).padStart(
+          2,
+          "0",
+        );
+        document.getElementById("cd-s").textContent = String(s).padStart(
+          2,
+          "0",
+        );
+      }
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    </script>
+  </body>
+</html>
